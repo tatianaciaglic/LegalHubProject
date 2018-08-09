@@ -1,0 +1,25 @@
+.resources1 {
+  
+    border-bottom: 30px;
+    padding: 15px;
+    width: 85%;
+
+    &__title {
+         padding-bottom: 20px;
+    }
+  
+    &__description {
+       padding-bottom: 50px;
+       text-align: justify;
+    }
+    
+  }
+  .resources1 label {
+       color: $color-deep-blue;
+    }
+    .resources1:hover {
+
+      background: C2C3C1;
+      box-shadow: 0 2px 10px 0 rgba(103,105,102,0.50);
+      
+    }

@@ -4,9 +4,10 @@ class SubHeader extends Component {
   render() {
     return (
       <div className='sub-header'>
-        <p>I am subheader
-            
-        </p>
+        <div className='buttons'>
+          <input className='buttons__category' type="button"  name="buttoncateg" value="Category" />
+          <input className='buttons__resources' type="button"  name="buttonresources" value="Resources" />
+        </div>
       </div>
     );
   }

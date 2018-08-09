@@ -1,6 +1,25 @@
 .header {
     grid-row: 1/2;
     grid-column: 2/5;
-    background-color: red;
-    
+    display: flex; 
+    padding: 30px; 
+}
+
+.logo {
+    padding: 30px;
+    border-right: 2px solid grey;
+}
+
+.textheader {
+    padding: 30px;
+    padding-top: 75px;
+
+    &__title {
+        font-family: $font-montserrat;
+    }
+    &__subtitle {
+        font-family: $font-cardo;
+        color: $color-deep-blue;
+        font-size: 20px;
+    }
 }

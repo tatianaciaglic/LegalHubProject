@@ -1,8 +1,15 @@
+@import 'variables';
 @import 'header';
 @import 'sub-header';
+@import 'base';
+@import 'maincontent';
+@import 'arrow';
+@import 'maincontent1';
+@import 'resources';
+@import 'resources1';
+@import 'tabnav';
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 1fr;
-  }
+body {
+  height: 98vh;
+  width: 98vw;
+}
